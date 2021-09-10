@@ -11,7 +11,7 @@ NOOCh (Naturally-Occuring Out-of-context Challenge sets) is a collection of imag
 
 There are two versions of this benchmark, each corresponding to a different notion of context. In the first version, an image is deemed OOC due to the presence or absence of useful context cues - this version of the benchmark is called NOOCh-CE (Co-occurence/Extractibility - see the paper for details). In the second version, an image is deemed OOC due to an unusual overall gist of the scene as determined by a word embedding - this version of the benchmark is called NOOCh-Gist. Here, we show examples of hard positives (top row) and negatives (bottom) row from the "kite", "sports\_ball" and "surfboard" tasks in NOOCh-CE.
 
-![example nooch images, showing hard positive and negative examples for the kite, sports ball, and surfboard tasks](images/nooch_example_images.png "Examples of hard positive and negatives from three NOOCh tasks")
+![example nooch images, showing hard positive and negative examples for the kite, sports ball, and surfboard tasks](images/nooch_example_images_readme.png "Examples of hard positive and negatives from three NOOCh tasks")
 
 The metric that we found most interesting for evaluating model robustness on this dataset was AUC-Hard - a model's AUC on all hard examples (positive and negative included). However, we encourage others to look at a range of metrics; evaluation or robustness is complicated and one size does not necessarily fit all.
 
