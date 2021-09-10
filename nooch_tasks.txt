@@ -1,0 +1,12 @@
+car,road
+bowl,dining_table
+boat,sea
+fire_hydrant,pavement
+airplane,sky-other
+cow,grass
+backpack,person
+cup,dining_table
+surfboard,sea
+tie,person
+sports_ball,playingfield
+kite,sky-other

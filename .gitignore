@@ -1,3 +1,11 @@
+# 
+cmds/*
+scripts/*
+cmp*
+*reqs*.txt
+*.swo
+*.swp
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
