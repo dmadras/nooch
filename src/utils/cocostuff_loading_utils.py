@@ -9,7 +9,7 @@ from collections import Counter
 
 
 def load_cocostuff(datadir, label, 
-        split_npz=os.path.join('data', 'cocostuff_split_inds.npz'), 
+        split_npz=os.path.join('data', 'cocostuff_split_image_ids.npz'),
         env_labels='', batch_size=32, no_cuda=False, 
         weighted_sampler=0, reweight_type=''):
     # Quick and dirty way to get COCO-Stuff loaders.
